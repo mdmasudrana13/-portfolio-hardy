@@ -50,3 +50,36 @@ nav ul li a{
     border-radius: 5px;
     cursor: pointer;
 }
+#banner{
+    max-width: 1332px;
+     max-height: 676px; ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:url(../images/developer.png), url(../images/header_bg.png) , #FFF8F3;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left ,bottom  right;
+}
+#banner .banner-infor{
+    text-align: left;
+    margin-left:125px;
+    max-width: 585px; ;
+}
+#banner .banner-infor h2{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #BABABA;
+    margin-bottom: 20px;
+}
+#banner .banner-infor h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+}
+#banner .banner-infor p{
+    font-size: 18px;
+
+    color: #757575;
+    margin-bottom: 15px;
+}
